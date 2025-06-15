@@ -1,7 +1,8 @@
 Flask
 gunicorn
-numpy>=1.26.4  # Or just leave it as numpy without a version
+numpy
 pandas
 scikit-learn
 xgboost
 joblib
+fpdf
