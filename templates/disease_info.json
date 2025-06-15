@@ -1,0 +1,576 @@
+{
+    "(vertigo) Paroymsal Positional Vertigo": {
+        "description": "A condition that causes sudden episodes of dizziness or vertigo when you move your head in certain positions.",
+        "prevention": [
+            "Avoid sudden head movements",
+            "Perform vestibular rehabilitation exercises",
+            "Sleep with your head slightly elevated",
+            "Be cautious when changing positions"
+        ],
+        "medication": [
+            "Meclizine (Antivert)",
+            "Diazepam (Valium)",
+            "Epley maneuver (canalith repositioning procedure)"
+        ]
+    },
+    "AIDS": {
+        "description": "Acquired Immunodeficiency Syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV).",
+        "prevention": [
+            "Practice safe sex using condoms",
+            "Get tested and know your partner's HIV status",
+            "Avoid sharing needles",
+            "Consider pre-exposure prophylaxis (PrEP) if at high risk"
+        ],
+        "medication": [
+            "Antiretroviral therapy (ART) combinations",
+            "Protease inhibitors",
+            "Integrase inhibitors",
+            "Non-nucleoside reverse transcriptase inhibitors"
+        ]
+    },
+    "Acne": {
+        "description": "A skin condition that occurs when hair follicles become plugged with oil and dead skin cells, causing pimples, blackheads or whiteheads.",
+        "prevention": [
+            "Wash your face twice daily with mild cleanser",
+            "Avoid touching your face",
+            "Use non-comedogenic makeup and skincare products",
+            "Shower after sweating"
+        ],
+        "medication": [
+            "Benzoyl peroxide",
+            "Salicylic acid",
+            "Retinoids (tretinoin, adapalene)",
+            "Antibiotics (clindamycin, erythromycin)"
+        ]
+    },
+    "Alcoholic hepatitis": {
+        "description": "Liver inflammation caused by excessive alcohol consumption over time.",
+        "prevention": [
+            "Limit alcohol consumption",
+            "Avoid binge drinking",
+            "Maintain a healthy diet",
+            "Get vaccinated against hepatitis A and B"
+        ],
+        "medication": [
+            "Corticosteroids (prednisone)",
+            "Pentoxifylline",
+            "Nutritional support",
+            "Liver transplant in severe cases"
+        ]
+    },
+    "Allergy": {
+        "description": "An immune system reaction to a foreign substance that's not typically harmful to your body.",
+        "prevention": [
+            "Identify and avoid allergy triggers",
+            "Keep windows closed during high pollen seasons",
+            "Use air purifiers",
+            "Wash bedding regularly in hot water"
+        ],
+        "medication": [
+            "Antihistamines (loratadine, cetirizine)",
+            "Decongestants",
+            "Nasal corticosteroids",
+            "Epinephrine for severe reactions"
+        ]
+    },
+    "Arthritis": {
+        "description": "Inflammation of one or more joints, causing pain and stiffness that can worsen with age.",
+        "prevention": [
+            "Maintain a healthy weight",
+            "Exercise regularly",
+            "Protect your joints from injury",
+            "Eat a diet rich in omega-3 fatty acids"
+        ],
+        "medication": [
+            "NSAIDs (ibuprofen, naproxen)",
+            "DMARDs (methotrexate)",
+            "Corticosteroids",
+            "Biologic response modifiers"
+        ]
+    },
+    "Bronchial Asthma": {
+        "description": "A condition in which your airways narrow and swell and may produce extra mucus, making breathing difficult.",
+        "prevention": [
+            "Identify and avoid asthma triggers",
+            "Get vaccinated for flu and pneumonia",
+            "Monitor your breathing",
+            "Take medications as prescribed"
+        ],
+        "medication": [
+            "Inhaled corticosteroids",
+            "Leukotriene modifiers",
+            "Long-acting beta agonists",
+            "Quick-relief (rescue) inhalers"
+        ]
+    },
+    "Cervical spondylosis": {
+        "description": "A general term for age-related wear and tear affecting the spinal disks in your neck.",
+        "prevention": [
+            "Maintain good posture",
+            "Stay active and exercise regularly",
+            "Use proper ergonomics at work",
+            "Avoid neck trauma"
+        ],
+        "medication": [
+            "NSAIDs (ibuprofen, naproxen)",
+            "Corticosteroids",
+            "Muscle relaxants",
+            "Nerve pain medications"
+        ]
+    },
+    "Chicken pox": {
+        "description": "A highly contagious viral infection causing an itchy, blister-like rash on the skin.",
+        "prevention": [
+            "Get vaccinated with the varicella vaccine",
+            "Avoid contact with infected individuals",
+            "Practice good hygiene",
+            "Isolate infected individuals"
+        ],
+        "medication": [
+            "Antiviral drugs (acyclovir)",
+            "Antihistamines for itching",
+            "Calamine lotion",
+            "Acetaminophen for fever"
+        ]
+    },
+    "Common Cold": {
+        "description": "A viral infection of your nose and throat (upper respiratory tract).",
+        "prevention": [
+            "Wash your hands frequently",
+            "Avoid close contact with sick people",
+            "Don't touch your face with unwashed hands",
+            "Practice good hygiene"
+        ],
+        "medication": [
+            "Pain relievers (acetaminophen, ibuprofen)",
+            "Decongestants",
+            "Cough syrups",
+            "Antihistamines"
+        ]
+    },
+    "Diabetes": {
+        "description": "A group of diseases that result in too much sugar in the blood (high blood glucose).",
+        "prevention": [
+            "Maintain a healthy weight",
+            "Exercise regularly",
+            "Eat a balanced diet",
+            "Monitor blood sugar levels"
+        ],
+        "medication": [
+            "Insulin",
+            "Metformin",
+            "Sulfonylureas",
+            "GLP-1 receptor agonists"
+        ]
+    },
+    "Dimorphic hemmorhoids(piles)": {
+        "description": "Swollen veins in the lower rectum and anus that can cause discomfort and bleeding.",
+        "prevention": [
+            "Eat high-fiber foods",
+            "Drink plenty of fluids",
+            "Exercise regularly",
+            "Avoid straining during bowel movements"
+        ],
+        "medication": [
+            "Topical treatments (hydrocortisone)",
+            "Pain relievers",
+            "Fiber supplements",
+            "Stool softeners"
+        ]
+    },
+    "Drug Reaction": {
+        "description": "An unwanted or harmful reaction experienced following the administration of a drug or combination of drugs.",
+        "prevention": [
+            "Inform your doctor about all medications you're taking",
+            "Be aware of potential side effects",
+            "Follow dosage instructions carefully",
+            "Report any unusual symptoms immediately"
+        ],
+        "medication": [
+            "Antihistamines for allergic reactions",
+            "Corticosteroids",
+            "Epinephrine for severe reactions",
+            "Discontinuation of the offending drug"
+        ]
+    },
+    "Fungal infection": {
+        "description": "An infection caused by fungi, which can affect your skin, nails, or internal organs.",
+        "prevention": [
+            "Keep skin clean and dry",
+            "Wear breathable clothing",
+            "Avoid sharing personal items",
+            "Practice good foot hygiene"
+        ],
+        "medication": [
+            "Topical antifungals (clotrimazole, miconazole)",
+            "Oral antifungals (fluconazole, terbinafine)",
+            "Antifungal shampoos",
+            "Antifungal powders"
+        ]
+    },
+    "GERD": {
+        "description": "Gastroesophageal reflux disease (GERD) occurs when stomach acid frequently flows back into the tube connecting your mouth and stomach (esophagus).",
+        "prevention": [
+            "Maintain a healthy weight",
+            "Avoid trigger foods (spicy, fatty, acidic)",
+            "Don't lie down after eating",
+            "Elevate the head of your bed"
+        ],
+        "medication": [
+            "Antacids",
+            "H2 receptor blockers",
+            "Proton pump inhibitors",
+            "Prokinetics"
+        ]
+    },
+    "Gastroenteritis": {
+        "description": "Inflammation of the stomach and intestines, typically resulting from bacterial toxins or viral infection.",
+        "prevention": [
+            "Wash hands frequently",
+            "Practice safe food handling",
+            "Drink clean water",
+            "Get vaccinated (rotavirus vaccine)"
+        ],
+        "medication": [
+            "Oral rehydration solutions",
+            "Anti-diarrheal medications",
+            "Antibiotics (for bacterial cases)",
+            "Probiotics"
+        ]
+    },
+    "Heart attack": {
+        "description": "A blockage of blood flow to the heart muscle, often caused by a blood clot.",
+        "prevention": [
+            "Don't smoke",
+            "Control blood pressure and cholesterol",
+            "Exercise regularly",
+            "Maintain a healthy weight"
+        ],
+        "medication": [
+            "Aspirin",
+            "Thrombolytics",
+            "Beta blockers",
+            "ACE inhibitors"
+        ]
+    },
+    "Hepatitis A": {
+        "description": "A highly contagious liver infection caused by the hepatitis A virus.",
+        "prevention": [
+            "Get vaccinated",
+            "Practice good hygiene",
+            "Avoid contaminated food and water",
+            "Wash hands thoroughly"
+        ],
+        "medication": [
+            "No specific treatment",
+            "Rest",
+            "Adequate nutrition",
+            "Fluids to prevent dehydration"
+        ]
+    },
+    "Hepatitis B": {
+        "description": "A serious liver infection caused by the hepatitis B virus (HBV).",
+        "prevention": [
+            "Get vaccinated",
+            "Practice safe sex",
+            "Avoid sharing needles",
+            "Be cautious with tattoos and piercings"
+        ],
+        "medication": [
+            "Antiviral medications (tenofovir, entecavir)",
+            "Interferon injections",
+            "Liver transplant in severe cases"
+        ]
+    },
+    "Hepatitis C": {
+        "description": "A viral infection that causes liver inflammation, sometimes leading to serious liver damage.",
+        "prevention": [
+            "Avoid sharing needles",
+            "Practice safe sex",
+            "Be cautious with tattoos and piercings",
+            "Don't share personal care items"
+        ],
+        "medication": [
+            "Antiviral medications (sofosbuvir, ledipasvir)",
+            "Combination therapies",
+            "Liver transplant in severe cases"
+        ]
+    },
+    "Hepatitis D": {
+        "description": "A serious liver disease caused by infection with the hepatitis D virus (HDV).",
+        "prevention": [
+            "Get vaccinated against hepatitis B (HDV requires HBV to replicate)",
+            "Avoid sharing needles",
+            "Practice safe sex",
+            "Be cautious with tattoos and piercings"
+        ],
+        "medication": [
+            "Pegylated interferon alpha",
+            "Liver transplant in severe cases"
+        ]
+    },
+    "Hepatitis E": {
+        "description": "A liver disease caused by infection with the hepatitis E virus (HEV).",
+        "prevention": [
+            "Practice good hygiene",
+            "Avoid contaminated water",
+            "Cook meat thoroughly",
+            "Practice safe food handling"
+        ],
+        "medication": [
+            "No specific treatment",
+            "Rest",
+            "Adequate nutrition",
+            "Fluids to prevent dehydration"
+        ]
+    },
+    "Hypertension": {
+        "description": "A condition in which the force of the blood against the artery walls is too high.",
+        "prevention": [
+            "Eat a healthy diet",
+            "Reduce sodium intake",
+            "Exercise regularly",
+            "Limit alcohol consumption"
+        ],
+        "medication": [
+            "Diuretics",
+            "ACE inhibitors",
+            "Calcium channel blockers",
+            "Beta blockers"
+        ]
+    },
+    "Hyperthyroidism": {
+        "description": "A condition in which the thyroid gland produces too much thyroid hormone.",
+        "prevention": [
+            "Regular thyroid check-ups",
+            "Be aware of family history",
+            "Monitor iodine intake",
+            "Manage stress"
+        ],
+        "medication": [
+            "Anti-thyroid medications (methimazole, propylthiouracil)",
+            "Radioactive iodine",
+            "Beta blockers",
+            "Surgery in some cases"
+        ]
+    },
+    "Hypoglycemia": {
+        "description": "A condition characterized by abnormally low blood glucose (sugar) levels.",
+        "prevention": [
+            "Monitor blood sugar regularly",
+            "Eat regular meals and snacks",
+            "Be prepared with fast-acting carbohydrates",
+            "Adjust medications as needed"
+        ],
+        "medication": [
+            "Glucose tablets or gel",
+            "Glucagon injection for severe cases",
+            "Adjustment of diabetes medications"
+        ]
+    },
+    "Hypothyroidism": {
+        "description": "A condition in which the thyroid gland doesn't produce enough thyroid hormone.",
+        "prevention": [
+            "Regular thyroid check-ups",
+            "Be aware of family history",
+            "Ensure adequate iodine intake",
+            "Monitor for symptoms"
+        ],
+        "medication": [
+            "Levothyroxine (Synthroid, Levoxyl)",
+            "Liothyronine (Cytomel)",
+            "Natural desiccated thyroid"
+        ]
+    },
+    "Impetigo": {
+        "description": "A highly contagious skin infection that mainly affects infants and children.",
+        "prevention": [
+            "Practice good hygiene",
+            "Keep skin clean",
+            "Treat cuts and scrapes promptly",
+            "Avoid contact with infected individuals"
+        ],
+        "medication": [
+            "Topical antibiotics (mupirocin)",
+            "Oral antibiotics (cephalexin, dicloxacillin)",
+            "Antiseptic washes"
+        ]
+    },
+    "Jaundice": {
+        "description": "A condition characterized by yellowing of the skin and eyes due to high bilirubin levels.",
+        "prevention": [
+            "Vaccinate against hepatitis",
+            "Avoid excessive alcohol consumption",
+            "Practice safe sex",
+            "Maintain a healthy diet"
+        ],
+        "medication": [
+            "Treatment depends on underlying cause",
+            "Phototherapy for newborns",
+            "Medications to treat underlying conditions"
+        ]
+    },
+    "Malaria": {
+        "description": "A disease caused by a parasite transmitted through the bite of infected mosquitoes.",
+        "prevention": [
+            "Use insect repellent",
+            "Sleep under mosquito nets",
+            "Take antimalarial medications when traveling to endemic areas",
+            "Wear protective clothing"
+        ],
+        "medication": [
+            "Chloroquine",
+            "Artemisinin-based combination therapies",
+            "Quinine",
+            "Mefloquine"
+        ]
+    },
+    "Migraine": {
+        "description": "A headache that can cause severe throbbing pain or a pulsing sensation, usually on one side of the head.",
+        "prevention": [
+            "Identify and avoid triggers",
+            "Maintain a regular sleep schedule",
+            "Stay hydrated",
+            "Manage stress"
+        ],
+        "medication": [
+            "Pain relievers (ibuprofen, aspirin)",
+            "Triptans",
+            "Ergots",
+            "Preventive medications (beta blockers, antidepressants)"
+        ]
+    },
+    "Osteoarthristis": {
+        "description": "The most common form of arthritis, affecting millions worldwide, occurring when the protective cartilage cushions the ends of bones wears down over time.",
+        "prevention": [
+            "Maintain a healthy weight",
+            "Exercise regularly",
+            "Protect your joints",
+            "Maintain good posture"
+        ],
+        "medication": [
+            "Acetaminophen",
+            "NSAIDs (ibuprofen, naproxen)",
+            "Duloxetine",
+            "Corticosteroid injections"
+        ]
+    },
+    "Paralysis (brain hemorrhage)": {
+        "description": "Loss of muscle function in part of your body due to bleeding in the brain.",
+        "prevention": [
+            "Control high blood pressure",
+            "Don't smoke",
+            "Manage diabetes",
+            "Maintain a healthy lifestyle"
+        ],
+        "medication": [
+            "Blood pressure medications",
+            "Pain relievers",
+            "Corticosteroids",
+            "Anticonvulsants"
+        ]
+    },
+    "Peptic ulcer diseae": {
+        "description": "Sores that develop on the lining of the stomach, lower esophagus, or small intestine.",
+        "prevention": [
+            "Wash hands frequently to avoid infections",
+            "Use pain relievers cautiously",
+            "Limit alcohol consumption",
+            "Don't smoke"
+        ],
+        "medication": [
+            "Antibiotics to kill H. pylori",
+            "Proton pump inhibitors",
+            "H2 receptor blockers",
+            "Antacids"
+        ]
+    },
+    "Pneumonia": {
+        "description": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid.",
+        "prevention": [
+            "Get vaccinated",
+            "Practice good hygiene",
+            "Don't smoke",
+            "Maintain a strong immune system"
+        ],
+        "medication": [
+            "Antibiotics (for bacterial pneumonia)",
+            "Antiviral medications",
+            "Fever reducers",
+            "Cough medicine"
+        ]
+    },
+    "Psoriasis": {
+        "description": "A skin disease that causes red, itchy scaly patches, most commonly on the knees, elbows, trunk and scalp.",
+        "prevention": [
+            "Keep skin moisturized",
+            "Avoid triggers (stress, skin injuries)",
+            "Get small amounts of sunlight",
+            "Avoid smoking and excessive alcohol"
+        ],
+        "medication": [
+            "Topical corticosteroids",
+            "Vitamin D analogues",
+            "Retinoids",
+            "Biologics"
+        ]
+    },
+    "Tuberculosis": {
+        "description": "A potentially serious infectious disease that mainly affects the lungs.",
+        "prevention": [
+            "Get vaccinated (BCG vaccine)",
+            "Avoid close contact with infected individuals",
+            "Ensure good ventilation",
+            "Practice good hygiene"
+        ],
+        "medication": [
+            "Isoniazid",
+            "Rifampin",
+            "Ethambutol",
+            "Pyrazinamide"
+        ]
+    },
+    "Typhoid": {
+        "description": "A bacterial infection that can lead to high fever, diarrhea, and vomiting, caused by Salmonella typhi.",
+        "prevention": [
+            "Get vaccinated",
+            "Drink clean water",
+            "Practice good hygiene",
+            "Avoid raw fruits and vegetables that can't be peeled"
+        ],
+        "medication": [
+            "Antibiotics (ciprofloxacin, azithromycin)",
+            "Fluid replacement",
+            "Nutritional support"
+        ]
+    },
+    "Urinary tract infection": {
+        "description": "An infection in any part of the urinary system — kidneys, ureters, bladder and urethra.",
+        "prevention": [
+            "Drink plenty of fluids",
+            "Wipe from front to back",
+            "Empty your bladder soon after intercourse",
+            "Avoid potentially irritating feminine products"
+        ],
+        "medication": [
+            "Antibiotics (trimethoprim/sulfamethoxazole, nitrofurantoin)",
+            "Pain relievers",
+            "Phenazopyridine for symptom relief"
+        ]
+    },
+    "Varicose veins": {
+        "description": "Enlarged, twisted veins that commonly occur in the legs and feet.",
+        "prevention": [
+            "Exercise regularly",
+            "Maintain a healthy weight",
+            "Elevate your legs",
+            "Avoid long periods of standing or sitting"
+        ],
+        "medication": [
+            "Compression stockings",
+            "Sclerotherapy",
+            "Laser treatments",
+            "Surgical options"
+        ]
+    }
+}

@@ -1,0 +1,769 @@
+/* Base Styles */
+:root {
+    --primary-color: #4a89dc;
+    --secondary-color: #3bafda;
+    --accent-color: #e9573f;
+    --light-color: #f5f7fa;
+    --dark-color: #434a54;
+    --success-color: #8cc152;
+    --warning-color: #f6bb42;
+    --danger-color: #da4453;
+    --text-color: #333;
+    --text-light: #777;
+    --border-radius: 8px;
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--border-radius);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #3a70c2;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo h1 span {
+    color: var(--accent-color);
+    font-weight: 400;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ed 100%);
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Prediction Form */
+.prediction-form {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    margin-top: -50px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: var(--dark-color);
+    display: flex;
+    align-items: center;
+}
+
+.form-container h2 i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    font-size: 1rem;
+    outline: none;
+    transition: var(--transition);
+}
+
+.search-container input:focus {
+    border-color: var(--primary-color);
+}
+
+.search-container button {
+    padding: 0 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.search-container button:hover {
+    background-color: #3a70c2;
+}
+
+.symptoms-container h3 {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: var(--dark-color);
+}
+
+.symptoms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.symptom-tag {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: var(--light-color);
+    border-radius: 20px;
+    transition: var(--transition);
+}
+
+.symptom-tag input[type="checkbox"] {
+    display: none;
+}
+
+.symptom-tag label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.symptom-tag label::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+    transition: var(--transition);
+}
+
+.symptom-tag input[type="checkbox"]:checked + label::before {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px;
+}
+
+.symptom-tag:hover {
+    background-color: #e1e8f0;
+}
+
+.predict-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+}
+
+/* Disease Search Section */
+.disease-search {
+    padding: 60px 0;
+    background-color: var(--light-color);
+}
+
+.disease-search h2 {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.disease-search h2 i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    font-size: 1rem;
+    outline: none;
+    transition: var(--transition);
+}
+
+.search-box input:focus {
+    border-color: var(--primary-color);
+}
+
+.search-box button {
+    padding: 0 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.search-box button:hover {
+    background-color: #3a70c2;
+}
+
+.disease-results {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+}
+
+.disease-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.disease-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.disease-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.disease-item p {
+    margin-bottom: 10px;
+}
+
+.disease-item ul {
+    margin-left: 20px;
+    color: var(--text-light);
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
+
+.about-section p {
+    margin-bottom: 15px;
+    color: var(--text-light);
+}
+
+/* Result Section */
+.result-section {
+    padding: 80px 0;
+}
+
+.result-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.result-header {
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-header h2 {
+    display: flex;
+    align-items: center;
+}
+
+.result-header h2 i {
+    margin-right: 10px;
+}
+
+.confidence-level {
+    display: flex;
+    align-items: center;
+}
+
+.confidence-meter {
+    width: 100px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.confidence-fill {
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.result-content {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+.result-main {
+    border-right: 1px solid #eee;
+    padding-right: 30px;
+}
+
+.result-main h3 {
+    margin-bottom: 15px;
+    color: var(--dark-color);
+}
+
+.disease-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.symptoms-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.symptom-tag {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: var(--light-color);
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.disease-info h3 {
+    margin-bottom: 15px;
+    color: var(--dark-color);
+    display: flex;
+    align-items: center;
+}
+
+.disease-info h3 i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.disease-info ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.disease-info ul li {
+    margin-bottom: 8px;
+}
+
+.result-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+.download-btn {
+    background-color: var(--success-color);
+}
+
+.download-btn:hover {
+    background-color: #7aab4a;
+}
+
+.reset-btn {
+    background-color: var(--warning-color);
+}
+
+.reset-btn:hover {
+    background-color: #e5b03a;
+}
+
+.disclaimer {
+    padding: 15px 30px;
+    background-color: #fff8e1;
+    border-top: 1px solid #ffecb3;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 60px 0 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-section h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.footer-section.about p {
+    margin-bottom: 20px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    transition: var(--transition);
+}
+
+.socials a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.footer-section.links ul {
+    list-style: none;
+}
+
+.footer-section.links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section.links ul li a {
+    color: #bbb;
+}
+
+.footer-section.links ul li a:hover {
+    color: white;
+}
+
+.footer-section.contact p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section.contact i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-content {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .result-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .result-main {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+        padding-right: 0;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .result-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .symptoms-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .search-container, .search-box {
+        flex-direction: column;
+    }
+    
+    .search-container input, .search-box input {
+        border-radius: var(--border-radius);
+        margin-bottom: 10px;
+    }
+    
+    .search-container button, .search-box button {
+        border-radius: var(--border-radius);
+        width: 100%;
+    }
+}
+/* Error Page Styles */
+.error-section {
+    padding: 80px 0;
+}
+
+.error-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 40px;
+    text-align: center;
+}
+
+.error-card h2 {
+    color: var(--danger-color);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-card h2 i {
+    margin-right: 10px;
+}
+
+.error-message {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffebee;
+    border-radius: var(--border-radius);
+}
+
+.error-message p {
+    color: var(--danger-color);
+    font-size: 1.1rem;
+}
+
+.home-btn {
+    background-color: var(--primary-color);
+    margin: 0 auto;
+}
+
+/* Model Loading Error Specific */
+.model-error {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+}
+
+.model-error h3 {
+    color: var(--warning-color);
+    margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .error-card {
+        padding: 30px 20px;
+    }
+}
+.socials {
+    margin-top: 15px;
+}
+
+.socials a {
+    color: var(--accent-color);
+    font-size: 20px;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+.socials a:hover {
+    color: var(--dark-color);
+    transform: translateY(-3px);
+}

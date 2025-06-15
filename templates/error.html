@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .error-section {
+        padding: 60px 0;
+    }
+    
+    .error-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+        max-width: 800px;
+        margin: 0 auto;
+        border: 1px solid rgba(0,0,0,0.05);
+        text-align: center;
+    }
+    
+    .error-card h2 {
+        color: var(--danger-color);
+        font-size: 2rem;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .error-card h2 i {
+        margin-right: 15px;
+    }
+    
+    .error-message {
+        background-color: #ffebee;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        border-left: 4px solid var(--danger-color);
+    }
+    
+    .error-message p {
+        margin: 0;
+        color: var(--dark-color);
+        font-size: 1.1rem;
+    }
+    
+    .error-actions {
+        margin-top: 30px;
+    }
+    
+    .home-btn {
+        background-color: var(--accent-color);
+    }
+</style>
+
+<section class="error-section">
+    <div class="container">
+        <div class="error-card">
+            <h2><i class="fas fa-exclamation-triangle"></i> Error Occurred</h2>
+            <div class="error-message">
+                <p>{{ error }}</p>
+            </div>
+            <div class="error-actions">
+                <a href="/" class="btn home-btn">
+                    <i class="fas fa-home"></i> Return Home
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
